@@ -19,9 +19,7 @@
    - 添加安全组规则（ssh、icmp）
 
    - 尝试从不同实例之间互相ping，看是否成功。以及实例能否ping通外网。
-     可以参考这篇博客的后半部分：
-
-     [https://blog.csdn.net/dylloveyou/article/details/77148560]: https://blog.csdn.net/dylloveyou/article/details/77148560
+     可以参考这篇[博客](https://blog.csdn.net/dylloveyou/article/details/77148560)的后半部分
 
      后面我也会在Q群中上传具体的操作步骤
 
