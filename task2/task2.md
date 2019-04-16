@@ -17,12 +17,16 @@
 部署实例需要服务器、相关的内网、外网和路由器
 ## 部署报告
 根据群文件进行网络、路由器和实例的设置
+
 创建网络
 ![image](https://i.loli.net/2019/04/16/5cb54347e7267.png)
+
 创建路由
 ![image](https://i.loli.net/2019/04/16/5cb5437616359.png)
+
 创建实例
 ![image](https://i.loli.net/2019/04/16/5cb543a7af732.png)
+
 实例ping其他实例、百度和浮动ip
 ![image](https://i.loli.net/2019/04/16/5cb543a79a1ea.png)
 ![image](https://i.loli.net/2019/04/16/5cb543a7918bb.png)
