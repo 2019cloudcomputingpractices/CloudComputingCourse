@@ -25,8 +25,13 @@
 8. 开启实例后能够打开之前创建的文件
 
    参考链接：
-   [win7的镜像制作](https://blog.csdn.net/liuhui_charmingglobe/article/details/60142973)
-   [centOS的镜像制作](https://blog.csdn.net/liuhui_charmingglobe/article/details/59110406 )
+
+   大家参看Q群文件啊！
+
+   [CentOS7的镜像制作](https://www.jianshu.com/p/137e6f3f0369)
+
+   [Win7的镜像制作](https://blog.51cto.com/jevic/1811277 )
+
    [各Linux发行版本的cloud镜像](https://blog.csdn.net/oyuk06cm/article/details/55259913)
 
 镜像的制作，你们可以（1）在自己的虚拟机上制作，然后上传到Openstack里。也可以（2）在各自小组分配的服务器上创建镜像，用vnc连接镜像修改，然后进行固化制作，并在服务器上使用命令行添加到Openstack中。建议是后者，因为镜像文件一般较大，如果第一种方法的话上传时间可能比较久。你们也可以先在自己虚拟机上操作一下先。
