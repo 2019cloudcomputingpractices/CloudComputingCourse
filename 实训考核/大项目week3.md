@@ -47,6 +47,10 @@ go get github.com/2019cloudcomputingpractices/socketserver
 可以看到可以正常访问，说明我们的配置已经成功了，当然为了能在关掉终端后还是可以继续运行，我们用nohup命令让其在后台运行即可：
 ![](https://raw.githubusercontent.com/2019cloudcomputingpractices/CloudComputingCourse/16340147-%E5%88%98%E6%81%92%E4%BC%9F/实训考核/image/21.png)
 
+我们用ApacheBench压力测试工具测试并发量结果如下（并发量和消息数均为2000）：
+![](https://raw.githubusercontent.com/2019cloudcomputingpractices/CloudComputingCourse/16340147-%E5%88%98%E6%81%92%E4%BC%9F/实训考核/image/22.png)
+
+可以看到服务器在5.458秒内处理了2000次消息，每秒可以处理366.46条消息，对于单机来说并发量算还可以了，因为我的mysql服务器是在腾讯云上，不是和服务器在一起，并且我的服务器是配置最低的学生机，如果部署在同一台机器上应该可以更快。
 ## 未完成工作
 应该没了吧，收工了
 
