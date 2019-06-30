@@ -13,9 +13,9 @@ Combating DDoS ttacks in the Cloud: equirements, Trends, and Future Directions
 + DDos攻击动态  
 传统上，分析DDOS攻击和设计缓解方案是网络安全社区的一个热门研究领域。直到最近，在云计算的出现和采用之后，ddos攻击研究才发现其重点转向云服务。云上的ddos攻击规模主要是体积/规模，攻击带宽>100 Gbps。然而，也有一些非常复杂的事件或智能云的主要攻击目标。DDOS攻击的动机包括敲诈、展示攻击能力和黑客活动主义，以及商业竞争。  
 下图描述了主要攻击机制以及攻击对云服务和基础设施的可能影响：  
-![](P1)  
+![P1](https://github.com/2019cloudcomputingpractices/CloudComputingCourse/blob/16340124-%E6%9D%8E%E8%A8%80/%E5%AE%9E%E8%AE%AD%E8%80%83%E6%A0%B8/images/P1.png)  
     
--资源分配管理  
+- 资源分配管理  
 该部分具体给出了云中计算资源如何量化，主要以资源向量的形式来表示。  
 
 + 算中DDos缓解方案的主要要求  
@@ -34,7 +34,7 @@ DDos缓解机制应该将a最小化，应用层的ddos缓解主要通过过滤�
 可用性是以服务正常运行时间来衡量的。服务质量也是服务健康的一个相关因素。对于Web服务器，重要的服务质量标准是响应时间或页面的服务响应时间。  
   
 下图是上述具体要求的关系导向图  
-![](P3)
+![P3](https://github.com/2019cloudcomputingpractices/CloudComputingCourse/blob/16340124-%E6%9D%8E%E8%A8%80/%E5%AE%9E%E8%AE%AD%E8%80%83%E6%A0%B8/images/P3.png)
 - 经验教训及未来方向  
     + Traffic filtering  
     - Managing costs  
@@ -42,8 +42,9 @@ DDos缓解机制应该将a最小化，应用层的ddos缓解主要通过过滤�
     + Collaboration  
     - Damage minimization  
     - Resource management  
+    
 据此提出的一种新颖的多级警报流处理方式
-![](P2)
+![P2](https://github.com/2019cloudcomputingpractices/CloudComputingCourse/blob/16340124-%E6%9D%8E%E8%A8%80/%E5%AE%9E%E8%AE%AD%E8%80%83%E6%A0%B8/images/P2.png)
   
 ## 总结&感想  
 过去的案例经验表明，仅仅依靠交通过滤可能不足以维护云环境安全。本文建议今后更多考虑可持续性、协作、资源管理，损害最小化，同时在云计算中处理ddos攻击。提供了基于多级警报流的协作ddos检测解决方案框架有利于设计有效的缓解方案。最后，根据攻击趋势，设想了DeNy DDos（近乎无法解决的DDos攻击），这个极端的高级案例需要更多的开放和研究。
