@@ -1,8 +1,6 @@
 # 题目
 <H1> Hadoop MapReduce for Mobile Clouds
 
----
-
 ## 内容概要
 本篇论文所主要描述的工作是在 **Hadoop MapReduce** 云计算框架基础上，考虑到原先的文件系统**HDFS（Hadoop Distributed File System）**是针对静态的网络拓扑结构设计的不能很好的应用于不断变化的移动环境，重新设计了一个新的文件系统 **MDFS（Mobile Distributed File System）**，从而能够更好的将Hadoop MapReduce框架应用到移动环境中。本文主描述了MDFS的主要功能以及如何去实现它，并且还对使用MDFS为文件系统的 Hadoop MapReduce 进行了性能测试。
 
