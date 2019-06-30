@@ -1,7 +1,6 @@
 # 题目
 <H1> Secure Data Sharing and Searching at the Edge of Cloud-Assisted Internet of Things
 
----
 
 ## 内容概要
 这篇论文主要是提出了一种轻量级加密方案，以便物联网智能设备可以在云辅助物联网的边缘与其他人共享数据。并且对这种加密方案进行性能测试。同时还提出了还提出了一种数据搜索方案，用于由授权用户在存储的数据中搜索所需数据，其中所有数据都是加密形式。
@@ -64,7 +63,7 @@
 ![](images/data-share.png)
 
 #### 3.4 数据搜索和检索
-与数据共享和下载相比，此操作多了一个根据请求的关键字列表和S.Sec.Key生成trapdoor,并且将trapdoor发送到存储进行检索的过程
+与数据共享和下载相比，此操作多了一个根据请求的关键字列表和S.Sec.Key生成trapdoor,并且将trapdoor发送到存储进行检索的过程  
 ![](images/data-search.png)
 
 
